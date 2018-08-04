@@ -1,1 +1,1 @@
-# This is django deployment 
+# This repo used for django deployment 
