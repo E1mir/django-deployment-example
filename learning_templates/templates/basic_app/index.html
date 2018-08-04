@@ -1,0 +1,8 @@
+{% extends "basic_app/base.html" %}
+{% load my_extras %}
+{% block body_block %}
+    <h1>Welcome to index!</h1>
+    <h2>This is index.html page showing!</h2>
+    <h2>{{ text|my_cut:'wo' }}</h2>
+    <h2>{{ number|add:"88" }}</h2>
+{% endblock body_block %}
